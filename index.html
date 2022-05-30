@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js"></script>
+        <title> Proyecto </title>
+        <style>
+            body{
+                background: url();
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .container{
+                width: 950px;
+                background: white;
+                margin:  center;
+                border-radius: 25px;
+            }
+            .top{
+               margin-top: 30px; 
+            }
+            .menu{
+               float: right;
+            }
+            .menu li{
+                display: inline-block;
+            }
+            .menu a{
+                color: black;
+                text-decoration: none;
+                padding: 20px;
+            }
+            .menu a:hover{
+                background: #0a1fdd;
+            }
+            .col{
+                width: 250px;
+                display: inline-block;
+                vertical-align: top;
+                text-align: justify;
+                padding: 20px;
+            }
+            .col h2{
+                color: brown;
+            }
+            .row{
+                text-align: center;
+            }
+            .hob{
+                text-align:  left;
+            }
+            .portada{
+                text-align: right;
+            }
+            .here{
+                text-align: left;
+            }
+            .nombre{
+                text-align: left;
+            }
+            .logos{
+                text-align: left;
+                border-radius: 25px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <img src="uta.jpg" height="130" width="130"  alt="">
+            <ul class="menu top">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PORTAFOLIO</a></li>
+                <li><a href="#">PAGES</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>      
+            </ul>
+        </div>
+        <div class="portada">
+            <ul class="here">
+                    <p> !!HEY THERE¡¡ </p>    
+            </ul>
+            <br> </br>
+            <ul class="nombre">
+                <p> OSCAR RENATO GARCIA </p>    
+        </ul>
+        <ul class="logos">
+            <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                  <img src="wa.png" width="20" height="20" class="d-inline-block align-top" alt="">
+                  <img src="insta.jpg" width="20" height="20" class="d-inline-block align-top" alt="">
+                  <img src="fa.png" width="20" height="20" class="d-inline-block align-top" alt="">
+                  <img src="you.png" width="20" height="20" class="d-inline-block align-top" alt="">
+                </a>
+    </ul>    
+            <img src="menc.jpg"  height="660" width="550" alt="">
+        </div>
+            <div class="col">
+                <h2>Jugar BaseBall</h2>
+                <img src="BASEBALL.jpg" height="115" width="125" alt="">
+                <p>HOBBIE</p>
+            </div>
+            <div class="col">
+                <h2>Jugar Fornite</h2>
+                <img src="BASEBALL.jpg" height="115" width="125"  alt="">
+                <p>HOBBIE</p>
+            </div>
+            <div class="col">
+                <h2>Salir con mis amigos</h2>
+                <img src="BASEBALL.jpg" height="115" width="125" alt="">
+                <p>HOBBIE</p>
+            </div>
+            <div class="changeColor" id="main">
+                <input type="color" id="picker" oninput="changeColor(this)"/>
+               </div>
+        </div>
+        
+    </div>
+    </body>
+</html>

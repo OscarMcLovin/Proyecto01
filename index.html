@@ -6,9 +6,16 @@
         <script src="script.js"></script>
         <title> Proyecto </title>
         <style>
+            
             body{
-                background: url();
+                background-color: white;
                 font-family: Arial, Helvetica, sans-serif;
+                height: 800px;
+                background-image: url("renato.png");
+                background-size: 960px;
+                background-repeat:no-repeat;
+                background-position: right;
+
             }
             .container{
                 width: 950px;
@@ -54,14 +61,31 @@
             }
             .here{
                 text-align: left;
+                color: darkgray;
             }
             .nombre{
                 text-align: left;
+                color: darkcyan;
+                text-size-adjust: 35;
             }
             .logos{
                 text-align: left;
                 border-radius: 25px;
 
+            }
+            .boton{
+                text-align: left;
+                color: red;
+                text-decoration-color: cornflowerblue;
+                padding: 20px;
+            
+            }
+            .list{
+                text-align: left;
+            }
+            .listah{
+                text-align: left;
+                color: brown;
             }
         </style>
     </head>
@@ -81,36 +105,31 @@
             <ul class="here">
                     <p> !!HEY THERE¡¡ </p>    
             </ul>
-            <br> </br>
             <ul class="nombre">
                 <p> OSCAR RENATO GARCIA </p>    
         </ul>
         <ul class="logos">
             <nav class="navbar navbar-light bg-light">
                 <a class="navbar-brand" href="#">
-                  <img src="wa.png" width="20" height="20" class="d-inline-block align-top" alt="">
-                  <img src="insta.jpg" width="20" height="20" class="d-inline-block align-top" alt="">
-                  <img src="fa.png" width="20" height="20" class="d-inline-block align-top" alt="">
-                  <img src="you.png" width="20" height="20" class="d-inline-block align-top" alt="">
+                  <img src="logos.png" width="200" height="200" class="d-inline-block align-top" alt="">
                 </a>
-    </ul>    
-            <img src="menc.jpg"  height="660" width="550" alt="">
+            <ul class="boton">
+                <button class="btn btn-outline-success" type="button">SEE MY WORK</button>  
+            </ul>
         </div>
-            <div class="col">
-                <h2>Jugar BaseBall</h2>
-                <img src="BASEBALL.jpg" height="115" width="125" alt="">
-                <p>HOBBIE</p>
-            </div>
-            <div class="col">
-                <h2>Jugar Fornite</h2>
-                <img src="BASEBALL.jpg" height="115" width="125"  alt="">
-                <p>HOBBIE</p>
-            </div>
-            <div class="col">
-                <h2>Salir con mis amigos</h2>
-                <img src="BASEBALL.jpg" height="115" width="125" alt="">
-                <p>HOBBIE</p>
-            </div>
+    <div class="listah">
+        <p>LISTA DE HOBBIES</p>
+    </div>
+    <ul class="list">
+        <li class="list-group-item list-group-item-accion">Dance</li> 
+        <li class="list-group-item list-group-item-secondary">Play basketball</li>
+        <li class="list-group-item list-group-item-success">Sing</li>
+        <li class="list-group-item list-group-item-danger">Go partying</li>
+        <li class="list-group-item list-group-item-warning">Go partying</li>
+        <li class="list-group-item list-group-item-info">Play video games</li>
+        <li class="list-group-item list-group-item-light">Watch movies</li>
+        <li class="list-group-item list-group-item-dark">listen to loud music</li>
+        </div>
             <div class="changeColor" id="main">
                 <input type="color" id="picker" oninput="changeColor(this)"/>
                </div>
